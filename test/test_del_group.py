@@ -1,7 +1,6 @@
 from model.group import Group
 from random import randrange
 
-
 def test_delete_some_group(app):
     if len(app.groups.get_group_list()) == 1:
         app.groups.add_new_group(Group(name='Test'))
