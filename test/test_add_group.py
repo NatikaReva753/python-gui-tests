@@ -2,6 +2,7 @@ from model.group import Group
 from random import randint
 
 
+
 def test_add_group(app):
     old_list = app.groups.get_group_list()
     new_group = Group(name="my group" + str(randint(1, 100000)))

@@ -1,5 +1,6 @@
 from pywinauto.application import Application as WinApplication
 
+
 class Application:
 
 
